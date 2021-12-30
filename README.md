@@ -20,8 +20,10 @@ Unfortunately, Ásbrú Connection Manager is a Linux-only application. So, I cre
 
 * We need X server to run X server GUI applications on Windows. Install VcXsrv Windows X Server: https://sourceforge.net/projects/vcxsrv/
 * Double click config.xlaunch file in this repository (This will launch VcXsrv Windows X Server)
-* Run firstrun.bat (This will create our docker image.)
+* Edit firstrun.bat and change "1.2.3.4 IP" with your local IP
+* Run firstrun.bat in this repository directory (This will create our docker container.)
 * Close asbru
+* Edit run.bat and change "container_name" with the name of your container
 * Now you can use run.bat to run asbru faster
 
 ## Linux:

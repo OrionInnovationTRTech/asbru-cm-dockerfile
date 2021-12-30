@@ -1,0 +1,8 @@
+root/**
+
+!root/.config/
+!root/.config/asbru/
+!root/.config/asbru/asbru.yml
+!root/.config/gtk-3.0/
+!root/.config/gtk-3.0/settings.ini
+!root/.gtkrc-2.0

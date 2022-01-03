@@ -15,12 +15,3 @@ RUN cpanm -i Glib
 CMD \
     xauth add $MY_XAUTH ; \
     env GDK_BACKEND=x11 GTK_THEME="Adwaita-dark" LC_ALL=C NO_AT_BRIDGE=1 asbru-cm
-
-# To run on Linux:
-# run.sh
-
-# To run on Windows:
-# Install VcXsrv Windows X Server: https://sourceforge.net/projects/vcxsrv/
-# Double click config.xlaunch file
-# firstrun.bat
-# Modify run.bat

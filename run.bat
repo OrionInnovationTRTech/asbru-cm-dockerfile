@@ -1,2 +1,2 @@
 @REM Start container
-docker container start container_name
+docker container start asbru_container
